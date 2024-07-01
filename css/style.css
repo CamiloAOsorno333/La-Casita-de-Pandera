@@ -1,0 +1,29 @@
+body{
+  background-image: url("FondoColo.png") ;
+  background-repeat: no-repeat;
+  background-size: covert;
+
+}
+
+.Titulo{
+    background-image: url('/Imagenes/FondoColo.png');
+    border: 2px solid #D2B4DE;
+    border-radius: 10px;
+    border-color: solid 3px rgba (40, 55, 71);
+    /*background-color: /*solid #BB8FCE  ;*/
+}
+
+h1,h2,p{
+    font-family: Tahoma;
+    border: 2px solid #D2B4DE;
+    border-radius: 10px;
+    /*background-color: /*solid #BB8FCE  ;*/
+    background-image: url("FondoColo.png") ;
+    background-size: cover; /* Ajustar tamaño de la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    width: 450px;
+    height: 40px;
+
+}
+
+
