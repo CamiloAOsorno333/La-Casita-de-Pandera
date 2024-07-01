@@ -1,12 +1,12 @@
 body{
-  background-image: url("FondoColo.png") ;
+  background-image: url("fondo.jpg") ;
   background-repeat: no-repeat;
   background-size: covert;
 
 }
 
 .Titulo{
-    background-image: url('/Imagenes/FondoColo.png');
+    background-image: url("fondo.jpg");
     border: 2px solid #D2B4DE;
     border-radius: 10px;
     border-color: solid 3px rgba (40, 55, 71);
@@ -24,6 +24,27 @@ h1,h2,p{
     width: 450px;
     height: 40px;
 
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 
